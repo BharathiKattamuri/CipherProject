@@ -13,7 +13,7 @@ public class EncodeUtilTest {
 		assertEquals("KHOOR", encoder.encryptCode("HELLO")); // encode testing simple case
 		assertEquals("DEFG", encoder.encryptCode("ABCD")); // encode testing lower boundary
 		assertEquals("ZABC", encoder.encryptCode("WXYZ")); // encode testing upper boundary
-		assertEquals("A", encoder.encryptCode("D")); // test size small
+		assertEquals("G", encoder.encryptCode("D")); // test size small
 		assertEquals("KHOORKHOOR", encoder.encryptCode("HELLOHELLO")); // test 10 char
 	}
 
