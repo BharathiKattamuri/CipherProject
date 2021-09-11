@@ -61,7 +61,7 @@ public class EncodeUtil implements Encoder {
 		return cypStr;
 	}
 
-	protected boolean isValidInput(String myStr) throws InvalidInputException {
+	private boolean isValidInput(String myStr) throws InvalidInputException {
 		Pattern p = Pattern.compile(VALID_REGEX_FORMAT);
 		Matcher m = p.matcher(myStr);
 		if (m.matches()) return true;
