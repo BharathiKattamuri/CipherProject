@@ -4,6 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Tests the class EncodeUtil
+ * @author bkat
+ *
+ */
 public class EncodeUtilTest {
 
 	Encoder encoder = new EncodeUtil();;
